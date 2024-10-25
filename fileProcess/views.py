@@ -24,7 +24,7 @@ def send_summary_mail(summary):
             row['Cust State'], row['Cust Pin'], row['Total DPD'], row['Count of Records'])
 
     send_mail('Python Assignment - Antu Saha', message,
-              'antu.digi.88@gmail.com', ['antusaha990@gmail.com'])
+              'antu.digi.88@gmail.com', ['tech@themedius.ai'])
 
 
 class FileProcessView(APIView):
